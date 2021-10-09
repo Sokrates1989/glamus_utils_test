@@ -1,0 +1,26 @@
+{
+    "name": "glamus/utils",
+    "description": "Basic Utility Classes to use in various projects",
+    "keywords": [
+        "glamus",
+        "StringUtils",
+        "FileUtils",
+        "Utils",
+        "String",
+        "File",
+        "Utilitites"
+    ],
+    "homepage": "https://github.com/glamus/utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Michiels",
+            "email": "michiels@glamus.de",
+            "homepage": "https://www.glamus.de/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+    }
+}
