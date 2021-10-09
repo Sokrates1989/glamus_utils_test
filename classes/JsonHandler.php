@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonHandler;
+namespace Glamus\Utils;
 
 /**
  * Hilfsklasse zum Lesen von Json.

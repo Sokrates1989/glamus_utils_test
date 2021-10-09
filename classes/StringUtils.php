@@ -1,6 +1,6 @@
 <?php
 
-namespace StringUtils;
+namespace Glamus\Utils;
 
 /**
  * Hilsklasse fuer diverse Funktionen rund um Zeichenketten.
@@ -94,6 +94,21 @@ class StringUtils {
    */
   public function getDateAsStringYearMonthDay(): string {
     return date('Y_m_d');
+  }
+
+
+
+  /**
+   * Friendly welcome
+   *
+   * @param string $phrase Phrase to return
+   *
+   * @return string Returns the phrase passed in
+   */
+  public function echoPhrase($phrase)
+  {
+    $phrase = $phrase . " -  \"said StringUtils\"";
+    return $phrase;
   }
 
 }
