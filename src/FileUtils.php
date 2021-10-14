@@ -26,7 +26,7 @@ class FileUtils {
    *
    * @var \Glamus\Utils\JsonHandler
    */
-  private JsonHandler $jsonHandler;
+  private $jsonHandler;
 
   /**
    * FileUtils constructor.
