@@ -185,7 +185,7 @@ class FileUtils {
    */
   public function echoPhrase($phrase)
   {
-    $phrase = $phrase . " -  \"said FileUtils 3.0.1\"";
+    $phrase = $phrase . " -  \"said FileUtils 3.1.0\"";
     return $phrase;
   }
 
