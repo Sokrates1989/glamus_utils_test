@@ -1,38 +1,38 @@
 {
-   "name": "glamus/utils",
-    "description": "Utility class for glamus",
+    "name": "glamus/name_of_your_project",
+    "description": "Describe your project here",
     "keywords": [
-        "Utilities"
+        "add",
+        "some",
+        "keywords",
+        "for",
+        "your",
+        "project",
+        "such",
+        "as:",
+        "utility",
+        "security",
+        "helpdesk",
+        "..."
     ],
     "homepage": "https://github.com/glamus/utils",
     "license": "MIT",
     "authors": [
         {
-            "name": "Peter Pan",
-            "email": "peter@pan.de.me",
-            "homepage": "http://peterpan.com",
+            "name": "Your Name",
+            "email": "your_mail_address@glamus.de",
+            "homepage": "https://www.glamus.de/",
             "role": "Developer"
         }
     ],
     "require": {
-        "php" : ">=5.5.0"
+        "php" : ">=5.5.0",
+        "glamus/utils": "dev-main"
     },
-    "require-dev": {
-        "phpunit/phpunit" : "4.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Glamus\\Utils\\": "src"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Sokrates1989/glamus_utils_test.git"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Glamus\\Utils\\Test\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    }
+    ]
 }
