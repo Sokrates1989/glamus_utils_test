@@ -54,9 +54,9 @@ For existing projects
 $ composer require :vendor/:package_name
 ```
 
-## Updates
+# Updates
 
-For Users / Updating via composer 
+## For Users / Updating via composer 
 
 1. make a backup (at least copy the current project directory or the glamus directory of vendor)
 2. if you made any custom adaptions to the source, make sure to save them
@@ -69,7 +69,7 @@ $ composer update :vendor/:package_name
 ```
 
 
-For Users / Updating via git
+## For Users / Updating via git
 
 1. go to the directory of glamus utils 
 2. open bash or terminal in that directory
@@ -97,6 +97,21 @@ $ echo $chosenversion
 $ git switch main
 $ git branch -D $chosenversion
 $ git checkout $chosenversion -b $chosenversion
+```
+
+
+## For Developers / create updates
+
+1. Test the code you want to update
+2. create or update the phpunit test
+3. push changes to main
+4. add a version number according to [semantic versioning](https://semver.org/) by bash / terminal as follows
+
+``` bash
+(always use v before version, so vMAJOR.MINOR.PATCH, so composer understands versions)
+$ newversion=vMAJOR.MINOR.PATCH
+$ git tag $newversion
+$ git push origin $newversion
 ```
 
 ## Usage
