@@ -27,7 +27,7 @@
     ],
     "require": {
         "php" : ">=5.5.0",
-        "glamus/utils": "dev-main"
+        "glamus/utils": "^4.0.0"
     },
     "repositories": [
         {

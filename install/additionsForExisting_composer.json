@@ -1,0 +1,13 @@
+{
+    ...
+    "require": {
+        ...
+        "glamus/utils": "^4.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Sokrates1989/glamus_utils_test.git"
+        }
+    ]
+}
