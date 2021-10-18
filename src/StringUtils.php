@@ -10,22 +10,10 @@ namespace Glamus\Utils;
  * z.Bsp.:  entfernt runde Klammern aus Zeichenkette.
  *
  *
- * 1.3.0        2021-09-10  michiels
- *              - type hinting of str_contains removed.
- * 1.2.0        2021-08-17  michiels
- *              - Added getDateAsStringYearMonthDay.
- * 1.1.1        2021-06-14  michiels
- *              - bug fix str_contains.
- * 1.1.0        2021-06-14  michiels
- *              - added fallback version of str_contains.
- * 1.0.2        2021-06-09  michiels
- *              - fixed code to apply to coding standards.
- * 1.0.1       2021-26-05  michiels
+ * 1.0.1       2021-10-18  michiels
  *              - Erstimplementierung
  *
  * @copyright GLAMUS GmbH
- * @package BpB-Wahlomat
- * @subpackage Browsertest
  * @author Patrick Michiels <michiels@glamus.de>
  */
 class StringUtils {
@@ -41,8 +29,7 @@ class StringUtils {
    *
    * @param string $stringToRemoveRoundBracketsFrom
    *   Der string von dem runde
-   *   Klammern entfernt werden
-   *                                                sollen.
+   *   Klammern entfernt werden sollen.
    *
    * @return string
    *   String ohne runde Klammern
@@ -84,16 +71,6 @@ class StringUtils {
     else {
       return $needle !== '' && mb_strpos($haystack, $needle) !== FALSE;
     }
-  }
-
-  /**
-   * Returns the current date as string in Year_month_day format.
-   *
-   * @return string
-   *   The current date as string in Year_month_day format.
-   */
-  public function getDateAsStringYearMonthDay(): string {
-    return date('Y_m_d');
   }
 
 

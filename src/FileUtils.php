@@ -13,7 +13,7 @@ use Glamus\Utils\JsonHandler;
  *          erzeugt Dateien, erzeugt Pfade
  *          ...
  *
- * 1.0.0       2021-12-05  michiels
+ * 1.0.0       2021-10-18  michiels
  *              - Erstimplementierung
  *
  * @copyright GLAMUS GmbH
@@ -26,7 +26,7 @@ class FileUtils {
    *
    * @var \Glamus\Utils\JsonHandler
    */
-  private $jsonHandler;
+  private JsonHandler $jsonHandler;
 
   /**
    * FileUtils constructor.
@@ -185,7 +185,7 @@ class FileUtils {
    */
   public function echoPhrase($phrase)
   {
-    $phrase = $phrase . " -  \"said FileUtils 4.0.0\"";
+    $phrase = $phrase . " -  \"said FileUtils\"";
     return $phrase;
   }
 
