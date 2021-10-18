@@ -46,11 +46,12 @@ $ git clone https://github.com/Sokrates1989/glamus_utils_test.git
 ```
 
 For existing projects
-1. edit your existing composer.json as instructed in [install/additionsForExisting_composer.json](install/additionsForExisting_composer.json) into the your composer.json
-2. Pay high attention to "require" key and edit the version number to glamus/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
+1. go to the root directory of your PHP project
+2. run below command in the bash or terminal in that directory
+3. take a look at updates to see how to get your desired version
 
 ``` bash
-$ composer require glamus/utils
+$ git clone https://github.com/Sokrates1989/glamus_utils_test.git
 ```
 
 # Updates
