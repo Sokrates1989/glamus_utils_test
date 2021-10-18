@@ -1,4 +1,4 @@
-# :package_name
+# Glamus/Utils
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,7 +7,6 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
 
 PHP Utilities for glamus employees to use in various projects to accumulate and share knowledge as well as to unify behaviour.
 
@@ -20,7 +19,7 @@ For new projects
 1. copy [install/composer_example.json](install/composer_example.json) into the new desired root directory of your project
 2. rename that file to "composer.json"
 3. edit the content to add information of your new project
-   - Pay high attention to "require" key and edit the version number to :vendor/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
+   - Pay high attention to "require" key and edit the version number to glamus/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
 4. run the following command from bash or terminal 
 
 ``` bash
@@ -29,10 +28,10 @@ $ composer install
 
 For existing projects
 1. edit your existing composer.json as instructed in [install/additionsForExisting_composer.json](install/additionsForExisting_composer.json) into the your composer.json
-2. Pay high attention to "require" key and edit the version number to :vendor/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
+2. Pay high attention to "require" key and edit the version number to glamus/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require glamus/utils
 ```
 
 ## Via Git (not recommended) ([click here for instructions how to install git itsef](https://github.com/git-guides/install-git))
@@ -48,10 +47,10 @@ $ git clone https://github.com/Sokrates1989/glamus_utils_test.git
 
 For existing projects
 1. edit your existing composer.json as instructed in [install/additionsForExisting_composer.json](install/additionsForExisting_composer.json) into the your composer.json
-2. Pay high attention to "require" key and edit the version number to :vendor/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
+2. Pay high attention to "require" key and edit the version number to glamus/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require glamus/utils
 ```
 
 # Updates
@@ -61,11 +60,11 @@ $ composer require :vendor/:package_name
 1. make a backup (at least copy the current project directory or the glamus directory of vendor)
 2. if you made any custom adaptions to the source, make sure to save them
 3. Take a look at your composer.json
-    - Pay high attention to "require" key, especially the version number of :vendor/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
+    - Pay high attention to "require" key, especially the version number of glamus/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
 4. execute the following command in the terminal/ bash of the directory  where the composer.json resides
 
 ``` bash
-$ composer update :vendor/:package_name
+$ composer update glamus/utils
 ```
 
 
@@ -149,28 +148,28 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT
 
 ## Security
 
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email michiels@glamus.de instead of using the issue tracker.
 
 ## Credits
 
-- [:author_name][link-author]
+- [Patrick Michiels][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/glamus/utils.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/glamus/utils/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/glamus/utils.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/glamus/utils.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/glamus/utils.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:vendor/:package_name
-[link-travis]: https://travis-ci.org/:vendor/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-packagist]: https://packagist.org/packages/glamus/utils
+[link-travis]: https://travis-ci.org/glamus/utils
+[link-scrutinizer]: https://scrutinizer-ci.com/g/glamus/utils/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/glamus/utils
+[link-downloads]: https://packagist.org/packages/glamus/utils
+[link-author]: https://github.com/Sokrates1989
 [link-contributors]: ../../contributors
