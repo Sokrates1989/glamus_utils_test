@@ -8,20 +8,10 @@ namespace Glamus\Utils;
  * GetJsonData([FILENAME]) liest json Datei und gibt array wieder.
  *
  *
- * 1.1.1        2021-07-15  michiels
- *              - fixed spelling.
- * 1.1.0        2021-06-15  michiels
- *              - renaming JsonReader to JsonHandler.
- *                config update allows specifying cookieQuestion, iframe and
- *                banner -> adaption converting array to json.
- * 1.0.1        2021-06-09  michiels
- *              - fixed code to apply to coding standards.
- * 1.0.0        2021-18-05  michiels
+ * 1.0.0        2021-10-18  michiels
  *              - Erstimplementierung
  *
  * @copyright GLAMUS GmbH
- * @package BpB-Wahlomat
- * @subpackage Browsertest
  * @author Patrick Michiels <michiels@glamus.de>
  */
 class JsonHandler {
