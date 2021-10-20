@@ -31,7 +31,7 @@ For existing projects
 2. Pay high attention to "require" key and edit the version number to glamus/:package according to [composer versions](https://getcomposer.org/doc/articles/versions.md) (recommendation: keep "^" at beginning to ensure backwards compatibility)
 
 ``` bash
-$ composer require glamus/utils
+$ composer install glamus/utils
 ```
 
 ## Via Git (not recommended) ([click here for instructions how to install git itsef](https://github.com/git-guides/install-git))
