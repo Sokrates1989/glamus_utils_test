@@ -14,7 +14,7 @@ PHP Utilities for glamus employees to use in various projects to accumulate and 
 
 # Install
 
-## Via Composer (recommended) ([click here for instructions how to install composer itsef](https://getcomposer.org/))
+## Via Composer (recommended) ([click here for instructions how to install composer itself](https://getcomposer.org/))
 
 For new projects 
 1. copy [install/composer_example.json](install/composer_example.json) into the new desired root directory of your project
